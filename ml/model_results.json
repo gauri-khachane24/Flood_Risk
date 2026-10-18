@@ -1,0 +1,55 @@
+{
+    "best_model_name": "Linear Regression",
+    "ordered_features": [
+        "MonsoonIntensity",
+        "TopographyDrainage",
+        "RiverManagement",
+        "Deforestation",
+        "Urbanization",
+        "ClimateChange",
+        "DamsQuality",
+        "Siltation",
+        "AgriculturalPractices",
+        "Encroachments",
+        "IneffectiveDisasterPreparedness",
+        "DrainageSystems",
+        "CoastalVulnerability",
+        "Landslides",
+        "Watersheds",
+        "DeterioratingInfrastructure",
+        "PopulationScore",
+        "WetlandLoss",
+        "InadequatePlanning",
+        "PoliticalFactors"
+    ],
+    "metrics": {
+        "Linear Regression": {
+            "MAE": 0.00219,
+            "RMSE": 0.003783,
+            "R2": 0.994255,
+            "CV_R2_5fold_mean": 0.994517,
+            "CV_R2_5fold_std": 0.000254
+        },
+        "Random Forest": {
+            "MAE": 0.020407,
+            "RMSE": 0.025851,
+            "R2": 0.731675,
+            "CV_R2_5fold_mean": 0.727808,
+            "CV_R2_5fold_std": 0.003376
+        },
+        "Gradient Boosting": {
+            "MAE": 0.018554,
+            "RMSE": 0.02351,
+            "R2": 0.778078,
+            "CV_R2_5fold_mean": 0.782397,
+            "CV_R2_5fold_std": 0.001156
+        }
+    },
+    "quantiles": {
+        "25%": 0.465,
+        "50%": 0.5,
+        "75%": 0.535,
+        "min": 0.285,
+        "max": 0.725
+    }
+}
